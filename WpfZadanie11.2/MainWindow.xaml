@@ -1,0 +1,79 @@
+﻿<Window x:Class="WpfZadanie11._2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfZadanie11._2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Rectangle HorizontalAlignment="Left" Height="10" Margin="227,159,0,0" Stroke="Black" VerticalAlignment="Top" Width="350" Fill="Black" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-30"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="10" Margin="227,169,0,0" Stroke="Black" VerticalAlignment="Top" Width="350" Fill="Orange" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-30"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="10" Margin="227,179,0,0" Stroke="Black" VerticalAlignment="Top" Width="350" Fill="Black" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-30"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="10" Margin="227,189,0,0" Stroke="Black" VerticalAlignment="Top" Width="350" Fill="Orange" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-30"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="10" Margin="227,199,0,0" Stroke="Black" VerticalAlignment="Top" Width="350" Fill="Black" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-30"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="10" Margin="230,75,0,0" Stroke="Black" VerticalAlignment="Top" Width="350" Fill="Black"/>
+        <Rectangle HorizontalAlignment="Left" Height="10" Margin="230,85,0,0" Stroke="Black" VerticalAlignment="Top" Width="350" Fill="Orange"/>
+        <Rectangle HorizontalAlignment="Left" Height="10" Margin="230,95,0,0" Stroke="Black" VerticalAlignment="Top" Width="350" Fill="Black"/>
+        <Rectangle HorizontalAlignment="Left" Height="10" Margin="230,105,0,0" Stroke="Black" VerticalAlignment="Top" Width="350" Fill="Orange"/>
+        <Rectangle HorizontalAlignment="Left" Height="10" Margin="230,115,0,0" Stroke="Black" VerticalAlignment="Top" Width="350" Fill="Black"/>
+
+        <Rectangle HorizontalAlignment="Left" Height="10" Margin="230,240,0,0" Stroke="Black" VerticalAlignment="Top" Width="350" Fill="Black"/>
+        <Rectangle HorizontalAlignment="Left" Height="10" Margin="230,250,0,0" Stroke="Black" VerticalAlignment="Top" Width="350" Fill="Orange"/>
+        <Rectangle HorizontalAlignment="Left" Height="10" Margin="230,260,0,0" Stroke="Black" VerticalAlignment="Top" Width="350" Fill="Black"/>
+        <Rectangle HorizontalAlignment="Left" Height="10" Margin="230,270,0,0" Stroke="Black" VerticalAlignment="Top" Width="350" Fill="Orange"/>
+        <Rectangle HorizontalAlignment="Left" Height="10" Margin="230,280,0,0" Stroke="Black" VerticalAlignment="Top" Width="350" Fill="Black"/>
+        <TextBlock HorizontalAlignment="Left" Height="90" Margin="230,325,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="350" FontSize="72"><Run Text="Z"/><Run Language="ru-ru" Text="а Наших!"/></TextBlock>
+        <Path Data="M47.421525,240 L84.753363,138.4122" Fill="Red" HorizontalAlignment="Left" Height="104" Margin="47,138,0,0" Stroke="Red" Stretch="Fill" VerticalAlignment="Top" Width="38"/>
+        <Path Data="M85,138 L118.04933,241" Fill="Red" HorizontalAlignment="Left" Height="104" Margin="84,138,0,0" Stroke="Red" Stretch="Fill" VerticalAlignment="Top" Width="36"/>
+        <Path Data="M119,240 L25.224215,177.76197" Fill="Red" HorizontalAlignment="Left" Height="64" Margin="25,178,0,0" Stroke="Red" Stretch="Fill" VerticalAlignment="Top" Width="95"/>
+        <Path Data="M25,178 L146.30045,178" Fill="Red" HorizontalAlignment="Left" Height="1" Margin="25,178,0,0" Stroke="Red" Stretch="Fill" VerticalAlignment="Top" Width="113"/>
+        <Path Data="M47,241 L137.21973,178" Fill="Red" HorizontalAlignment="Left" Height="64" Margin="47,178,0,0" Stroke="Red" Stretch="Fill" VerticalAlignment="Top" Width="91"/>
+
+    </Grid>
+</Window>
